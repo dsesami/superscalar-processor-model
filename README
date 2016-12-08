@@ -11,6 +11,7 @@ This project is a C++ superscalar processor simulator that reads in a text file 
 etc...
 
 Where the generic format is: [address] [instruction type] [destination register] [source register 1] [source register 2].
+Register values of -1 indicate the absence of a register.
 
 For the purposes of simulation, instruction type describes the number of cycles a given instruction would take during the execution stage EX.
 
