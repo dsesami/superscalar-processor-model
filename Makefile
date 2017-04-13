@@ -1,12 +1,14 @@
+# template Makefile
+
 CC = g++
 OPT = -g  
 WARN = -Wall
 CFLAGS = $(OPT) $(WARN) 
 
-# List all your .cc files here (source files, excluding header files)
+# .cc files
 SIM_SRC = main.cc fetch.cc decode.cc rename.cc regRead.cc dispatch.cc issue.cc execute.cc writeback.cc retire.cc
 
-# List corresponding compiled object files here (.o files)
+# .o files
 SIM_OBJ = main.o fetch.o decode.o rename.o regRead.o dispatch.o issue.o execute.o writeback.o retire.o
 
 
